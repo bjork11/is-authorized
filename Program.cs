@@ -7,7 +7,7 @@ namespace is_authorized
     //Googlade hur man soterar listor med string och hittade ett exempel på geeksforgeeks
     //https://www.geeksforgeeks.org/how-to-sort-list-in-c-sharp-set-1/
     //Fattar inte riktigt hur comparern används eller varför dock!
-    
+
    /*  class CFG : IComparer<string>
     {
         public int Compare(string x, string y)
@@ -74,11 +74,11 @@ namespace is_authorized
         {
             if (password == true)
             {
-                Console.WriteLine("Lösenorden är rätt! Du har nu tillgång till hela innehåller i Pandoras Ask!");
+                Console.WriteLine("Lösenorden är rätt! \nDu har nu tillgång till hela innehållet i Pandoras Ask!");
             }
             else
             {
-                Console.WriteLine("Du har skrivit fel 5 gånger. Försök igen senare!");
+                Console.WriteLine("Du har skrivit fel lösenord 5 gånger. \n Innehållet i Pandoras Ask är nu för evigt oåtkomligt för dig!");
             }
         }
 
